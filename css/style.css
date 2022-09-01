@@ -324,11 +324,194 @@ header.sticky {
      margin-left: 200px;
 }
 
+.service {
+    overflow: hidden;
+}
+
+.service-txt-bx {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.service-txt-bx h1 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 122%;
+    /* identical to box height, or 59px */
+    
+    text-align: right;
+    
+    /* Green */
+    
+    color: #000000;
+}
+.service-txt-bx h1 span {
+     color: #7DA85D;
+}
+.line-div {
+    display: flex;
+    margin-top: 20px;
+}
+.line-div h2 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: -30px;
+    text-align: center;
+    
+    /* Body Text */
+    
+    color: #545454;
+    padding: 20px;
+}
+.line-div span {
+    width: 150px;
+    height: 0px;
+    border: 1px solid #545454;
+
+}
+
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+     flex-wrap: wrap;
+     margin-top: 50px;
+}
+
+.container > div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    padding: 20px;
+}
+.container > div h3 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 122%;
+    /* or 29px */
+    /* Green */
+    text-transform: capitalize;
+    color: #7DA85D;
+}
+
+ .left > div {
+    flex-direction: row;
+}
+
+.container > div img {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+.container-content p {
+    width: 302px;
+    height: 40px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+    /* Body Text */
+    
+    color: #545454;
+    
+}
+.testimonials {
+    margin-top: 50px;
+}
+.testimonials h1 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 121.5%;
+    /* or 78px */
+    
+    
+    color: #000000;
+    
+    /* Shadow */
+    text-align: center;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+}
+.testi-bx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testi-bx-content {
+    width: 1297px;
+    height: 388px;
+    background: rgba(218, 255, 212, 0.85);
+    border-radius: 16px;
+}
+
+.bx-content {
+    display: flex;
+    padding: 50px;
+}
+
+.bx-content-txt {
+     margin: 30px;
+}
+.bx-content-txt h2 {
+    width: 262px;
+    height: 69px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121.5%;
+    /* or 58px */
+    color: #000000;
+    /* Shadow */
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+}
+.bx-content-txt p {
+    width: 804px;
+    height: 139px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    
+    /* Body Text */
+    
+    color: #545454;
+}
+
 .social-links {
      margin-top: 100px;
      display: flex;
      justify-content: center;
      align-items: center;
+}
+
+.section-container {
+     display: flex;
+     justify-content: center;
+     align-content: center;
 }
 
 footer {
@@ -400,6 +583,7 @@ footer .logo {
         width: 300px;
         font-weight: 900;
     }
+
    
    
 }
@@ -465,6 +649,47 @@ footer .logo {
     .right-column-txtbx p {
         font-size: 20px;
         width: 300px;
+    }
+   
+    .service-txt-bx h1 {
+        font-size: 20px;
+    }
+
+    .line-div span {
+        width: 60px;
+    }
+    .testi-bx {
+        margin-top: 50px;
+    }
+
+    .testi-bx-content {
+        width: 300px;
+        flex-direction: column;
+    }
+    .bx-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bx-content img {
+        width: 40%;
+        height: 40%;
+    }
+    .bx-content-txt h2 {
+        font-size: 25px;
+    }
+    .bx-content-txt p{
+        line-height: 20px;
+        width: 250px;
+        font-size: 10px;
+    }
+    .testimonials h1 {
+        font-size: 20px;
+    }
+    
+    .container-img img {
+        margin-top: 50px;
+        max-width: 100%;
     }
 
    
