@@ -513,6 +513,41 @@ header.sticky {
      justify-content: center;
      align-content: center;
 }
+.contact h1 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 180%;
+    /* or 86px */
+    
+    
+    /* Black */
+    text-align: center;
+    color: #000000;
+}
+.admin-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.admin-img img {
+    max-width: 100%;
+}
+.admin-img {
+    padding: 50px;
+}
+.admin-img p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+     text-align: center;
+    color: #000000;
+}
 
 footer {
     margin-top: 50px;
